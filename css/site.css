@@ -70,6 +70,7 @@ body {
     color: white;
     text-shadow: black 0.3em 0.3em 0.3em;
     text-align: center;
+    opacity: 0.9;
 }
 
 .search-box {
@@ -89,25 +90,94 @@ body {
 }
 
 .search-box .btn {
-	padding: 16px 30px;
+	padding: 12px 30px;
 	border-radius: 0;
+	font-size: 19px;
+}
+
+/******** Feature One ******/
+.feature {
+	/*padding: 95px 0;*/
+	background-image: url('../imgs/feature-bg.jpg');
+	background-size: cover;
+	color: #FFFFFF;
+}
+
+.feature p {
+	font-size: 18px;
+}
+
+.feature .image {
+	text-align: right;
+}
+
+.feature .overlay {
+	padding: 85px 0;
+	background: #11538C;
+	opacity: 0.9;
+}
+
+/***** Feature Two *******/
+.feature2 {
+	/*padding: 95px 0;*/
+	background-image: url('../imgs/feature-bg.jpg');
+	background-size: cover;
+	color: #333333;
+}
+
+.feature2 p {
+	font-size: 18px;
+}
+
+.feature2 .image {
+	/*text-align: right;*/
+}
+
+.feature2 .overlay {
+	padding: 85px 0;
+	background: #FFFFFF;
+	opacity: 0.8;
 }
 
 /****** Media Queries *******/
 
 /* Large desktops and laptops */
 @media (min-width: 1200px) {
-	.jumbotron {
-		padding: 15em 0;
+	.dropdown:hover .dropdown-menu {
+		display: block;
 	}
 
+	.jumbotron {
+		padding: 10em 0;
+	}
 
+	.jumbotron h3{
+		font-size: 48px;
+		color: indigo;
+	}
+
+	.jumbotron p {
+		font-size: 30px;
+	}
 }
 
 /* Landscape tablets and medium desktops */
 @media (min-width: 992px) and (max-width: 1199px) {
+	.dropdown:hover .dropdown-menu {
+		display: block;
+	}
+
 	.jumbotron {
 		padding: 9em 0;
+	}
+
+	.jumbotron h3{
+		font-size: 32px;
+		color: brown;
+	}
+
+	.jumbotron p {
+		font-size: 20px;
 	}
 }
 
