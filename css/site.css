@@ -189,6 +189,33 @@ body {
 	font-weight: bold;
 }
 
+/**** Stats Section ****/
+.stats {
+	padding: 10px 0;
+	background: #11538C;
+}
+
+.stats h1 {
+	font-weight: bold;
+	text-align: center;
+	background-color: #FFFFFF;
+}
+
+.stats h3 {
+	color: #FFFFFF;
+	font-weight: bold;
+	text-align: center;
+}
+
+.stats .circle {
+	margin: 0 auto;
+	border-radius: 50%;
+	width: 120px;
+    height: 120px;
+    padding: 40px 0;
+    color: #11538C;
+}
+
 /* Landscape tablets and medium desktops */
 @media (min-width: 992px) and (max-width: 1199px) {
 	.dropdown:hover .dropdown-menu {
