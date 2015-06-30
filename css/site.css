@@ -1,0 +1,133 @@
+html {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	margin: 0;
+	padding: 0;
+}
+
+.container-full {
+	width: 100%;
+	padding-right: 0px;
+	padding-left: 0px;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+/***** Navbar Styles *****/
+.navbar {
+	border-radius: 0;
+	margin-bottom: 0;
+}
+
+.navbar-toggle {
+	background-color: blue;
+}
+
+.icon-bar {
+    background: #FFF none repeat scroll 0% 0%;
+}
+.navbar-collapse.in {
+    /*overflow-y: auto;*/
+}
+.navbar-collapse {
+    /*padding-left: 0px;*/
+    /*background: #222 none repeat scroll 0% 0%;*/
+    /*position: absolute;
+    width: 100%;*/
+}
+.navbar-collapse {
+    /*padding-right: 0px;*/
+}
+.navbar-collapse {
+   /* max-height: 340px;
+    overflow-x: visible;
+    padding-left: 15px;
+    border-top: 1px solid transparent;
+    box-shadow: 0px 1px 0px rgba(255, 255, 255, 0.1) inset;*/
+}
+
+/****** Jumbotron Styles *****/
+.jumbotron {
+    margin-bottom: 0px;
+    padding: 15em 0;
+    height: auto;
+    background: transparent url(../imgs/hero.jpg);
+    background-position: 0% 25%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: white;
+    text-shadow: black 0.3em 0.3em 0.3em;
+    text-align: center;
+}
+
+/****** Media Queries *******/
+
+/* Large desktops and laptops */
+@media (min-width: 1200px) {
+	.jumbotron {
+		padding: 15em 0;
+	}
+}
+
+/* Landscape tablets and medium desktops */
+@media (min-width: 992px) and (max-width: 1199px) {
+	.jumbotron {
+		padding: 9em 0;
+	}
+}
+
+/* Portrait tablets and small desktops */
+@media (min-width: 768px) and (max-width: 991px) {
+	.dropdown:hover .dropdown-menu {
+		display: block;
+	}
+
+	.jumbotron {
+		padding: 4em 0;
+	}
+}
+
+/* Landscape phones and portrait tablets */
+@media (min-width: 480px) and (max-width: 767px) {
+	.jumbotron {
+		padding: 4em 0;
+	}
+
+	.jumbotron p {
+		margin-bottom: 5px;
+		color: orange;
+		font-size: 18px;
+	}
+}
+
+/* Portrait phones and smaller */
+@media (max-width: 480px) {
+	.jumbotron {
+			padding: 4em 0;
+		}
+
+		.jumbotron h3 {
+			font-size: 12px;
+			color: red;
+		}
+
+		.jumbotron p {
+			font-size: 12px;
+			color: red;
+		}
+}
+
+/* Custom, iPhone Retina */ 
+@media only screen and (max-width : 320px) {
+    .jumbotron {
+		padding: 4em 0;
+	}
+
+	.jumbotron p {
+		margin-bottom: 0;
+		color: orange;
+	}
+}
