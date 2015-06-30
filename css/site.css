@@ -63,6 +63,27 @@ body {
     text-align: center;
 }
 
+.search-box {
+	background-color: #333;
+	padding-bottom: 30px;
+}
+
+.search-box h3 {
+	color:#FFFFFF;
+	text-align: center;
+}
+
+.search-box .form-control {
+	height: 54px;
+	border-radius: 0;
+	box-shadow: none;
+}
+
+.search-box .btn {
+	padding: 16px 30px;
+	border-radius: 0;
+}
+
 /****** Media Queries *******/
 
 /* Large desktops and laptops */
@@ -70,6 +91,8 @@ body {
 	.jumbotron {
 		padding: 15em 0;
 	}
+
+
 }
 
 /* Landscape tablets and medium desktops */
