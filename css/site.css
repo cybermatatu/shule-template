@@ -217,7 +217,11 @@ body {
 }
 /******* Testimonials *******/
 .testimonials {
+	
+}
 
+.testimonials .testimonies-item {
+	padding:  0 7px;
 }
 
 .testimonials h3 {
@@ -225,41 +229,18 @@ body {
 }
 
 .testimonials p {
-	/*position: relative;*/
 	font-size: 13px;
 	text-align: justify;
-	font-style: italic;
 }
 
 .testimonials img {
 	/*position: absolute;*/
 	width: 98px;
 }
-/******** Owl Carousel ***********/
-.owl-theme .owl-controls .owl-buttons div {
-    color: #800000;
-    display: inline-block;
-    position: absolute;
-    margin: 5px;
-    padding: 3px 10px;
-    font-size: 12px;
-    border-radius: 0px;
-    /*background: #869791 none repeat scroll 0% 0%;*/
-    /*opacity: 0.5;*/
-}
 
-.owl-buttons {
-	margin-top: -55px;
-	position: absolute;
-}
-
-.owl-prev {
-	right: 0px;
-	background-position: 0 0;
-}
-
-.owl-next {
-	left: 0px;
+/**** Owl Pagination ****/
+.owl-pagination {
+	padding: 0 2px;
 }
 
 /* Landscape tablets and medium desktops */
