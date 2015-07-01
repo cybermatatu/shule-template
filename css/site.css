@@ -31,6 +31,32 @@ body {
 	margin-bottom: 0;
 }
 
+.navbar-default {
+    background-color: #449D44;
+    border: none;
+}
+
+.navbar-default .navbar-brand {
+    color: #FFFFFF;
+}
+
+.navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:focus, .navbar-default .navbar-nav > .active > a:hover {
+    color: #449D44;
+    background-color: #E7E7E7;
+    font-weight: bold;
+}
+
+.navbar-default .navbar-nav > li > a {
+    color: #FFFFFF;
+    font-weight: bold;
+}
+
+.navbar-default .navbar-nav > li > a:focus, .navbar-default .navbar-nav > li > a:hover {
+    color: #EDF4E7;
+    background-color: transparent;
+    font-weight: bold;
+}
+
 .navbar-toggle {
 	background-color: blue;
 }
@@ -58,6 +84,20 @@ body {
     box-shadow: 0px 1px 0px rgba(255, 255, 255, 0.1) inset;*/
 }
 
+.dropdown-menu {
+	border-radius: 0;
+}
+
+.dropdown-menu > li > a {
+    display: block;
+    padding: 3px 20px;
+    clear: both;
+    font-weight: 400;
+    line-height: 1.42857;
+    color: #449D44;
+    white-space: nowrap;
+}
+
 /****** Jumbotron Styles *****/
 .jumbotron {
     margin-bottom: 0px;
@@ -68,13 +108,13 @@ body {
     background-size: cover;
     background-repeat: no-repeat;
     color: white;
-    text-shadow: black 0.3em 0.3em 0.3em;
+    /*text-shadow: black 0.3em 0.3em 0.3em;*/
     text-align: center;
     opacity: 0.9;
 }
 
 .search-box {
-	background-color: #333;
+	background-color: #449D44;
 	padding-bottom: 30px;
 }
 
@@ -103,6 +143,10 @@ body {
 	color: #FFFFFF;
 }
 
+.feature h3 {
+	color: #FFFFFF;
+}
+
 .feature p {
 	font-size: 18px;
 }
@@ -113,7 +157,7 @@ body {
 
 .feature .overlay {
 	padding: 35px 0;
-	background: #11538C;
+	background: #449D44;
 	opacity: 0.9;
 }
 
@@ -135,30 +179,16 @@ body {
 
 .feature2 .overlay {
 	padding: 35px 0;
-	background: #FFFFFF;
+	background: #EDF4E7;
 	opacity: 0.8;
 }
 
-/****** Media Queries *******/
+.courses {
 
-/* Large desktops and laptops */
-@media (min-width: 1200px) {
-	.dropdown:hover .dropdown-menu {
-		display: block;
-	}
+}
 
-	.jumbotron {
-		padding: 10em 0;
-	}
-
-	.jumbotron h3{
-		font-size: 48px;
-		color: indigo;
-	}
-
-	.jumbotron p {
-		font-size: 30px;
-	}
+.courses h2, h4 {
+	color: #449D44;
 }
 
 .course {
@@ -192,17 +222,17 @@ body {
 /**** Stats Section ****/
 .stats {
 	padding-bottom: 18px;
-	background: #11538C;
+	background: #EDF4E7;
 }
 
 .stats h1 {
 	font-weight: bold;
 	text-align: center;
-	background-color: #FFFFFF;
+	background-color: #449D44;
 }
 
 .stats h3 {
-	color: #FFFFFF;
+	color: #449D44;
 	font-weight: bold;
 	text-align: center;
 }
@@ -213,7 +243,7 @@ body {
 	width: 120px;
     height: 120px;
     padding: 40px 0;
-    color: #11538C;
+    color: #FFFFFF;
 }
 /******* Testimonials *******/
 .testimonials {
@@ -226,6 +256,10 @@ body {
 
 .testimonials .testimonies-item {
 	padding:  0 7px;
+}
+
+.testimonials h2{
+	color: #449D44;
 }
 
 .testimonials h3 {
@@ -301,9 +335,26 @@ body {
 }
 
 /****** Media Queries *******/
+/****** Media Queries *******/
+
 /* Large desktops and laptops */
 @media (min-width: 1200px) {
-	
+	.dropdown:hover .dropdown-menu {
+		display: block;
+	}
+
+	.jumbotron {
+		padding: 10em 0;
+	}
+
+	.jumbotron h3{
+		font-size: 48px;
+		color: indigo;
+	}
+
+	.jumbotron p {
+		font-size: 30px;
+	}
 }
 
 /* Landscape tablets and medium desktops */
