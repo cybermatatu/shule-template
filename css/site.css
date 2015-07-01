@@ -112,7 +112,7 @@ body {
 }
 
 .feature .overlay {
-	padding: 85px 0;
+	padding: 35px 0;
 	background: #11538C;
 	opacity: 0.9;
 }
@@ -134,7 +134,7 @@ body {
 }
 
 .feature2 .overlay {
-	padding: 85px 0;
+	padding: 35px 0;
 	background: #FFFFFF;
 	opacity: 0.8;
 }
@@ -191,7 +191,7 @@ body {
 
 /**** Stats Section ****/
 .stats {
-	padding: 10px 0;
+	padding-bottom: 18px;
 	background: #11538C;
 }
 
@@ -238,9 +238,49 @@ body {
 	width: 98px;
 }
 
-/**** Owl Pagination ****/
-.owl-pagination {
-	padding: 0 2px;
+/***** Footer ******/
+.footer {
+	height: 150px;
+	margin-top: 200px;
+	background-color: #11538C;
+}
+
+.footer a {
+	color: #FFFFFF;
+	text-decoration: none;
+}
+
+.footer a:hover {
+	color: #DDDDDD;
+}
+
+.footer p {
+	color: #FFFFFF;
+	font-size: 13px;
+}
+
+.footer h5 {
+	color: #FFFFFF;
+	font-size: 16px;
+	font-weight: bold;
+}
+
+.footer ul {
+	padding: 0;
+	margin: 0;
+}
+
+.footer ul li {
+	list-style: none;
+	color: #FFFFFF;
+}
+
+.footer .newsletter {
+	padding-left: 0;
+}
+
+.footer .newsletter .form-control, .btn {
+	border-radius: 0;
 }
 
 /* Landscape tablets and medium desktops */
