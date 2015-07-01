@@ -220,6 +220,10 @@ body {
 	padding-bottom: 18px;
 }
 
+.testimonials .row {
+	margin-left: 0;
+}
+
 .testimonials .testimonies-item {
 	padding:  0 7px;
 }
@@ -283,7 +287,18 @@ body {
 	border-radius: 0;
 }
 
-
+/******** Owl Carousel ***********/
+.owl-theme .owl-controls .owl-buttons div {
+    color: #800000;
+    display: inline-block;
+    position: absolute;
+    margin: 5px;
+    padding: 3px 10px;
+    font-size: 12px;
+    border-radius: 0px;
+    /*background: #869791 none repeat scroll 0% 0%;*/
+    /*opacity: 0.5;*/
+}
 
 /****** Media Queries *******/
 /* Large desktops and laptops */
