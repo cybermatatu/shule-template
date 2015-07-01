@@ -240,9 +240,9 @@ body {
 
 /***** Footer ******/
 .footer {
-	height: 150px;
-	margin-top: 200px;
-	background-color: #11538C;
+	/*height: 150px;
+	margin-top: 200px;*/
+	background: #11538C;
 }
 
 .footer a {
@@ -281,6 +281,14 @@ body {
 
 .footer .newsletter .form-control, .btn {
 	border-radius: 0;
+}
+
+
+
+/****** Media Queries *******/
+/* Large desktops and laptops */
+@media (min-width: 1200px) {
+	
 }
 
 /* Landscape tablets and medium desktops */
