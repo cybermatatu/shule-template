@@ -90,9 +90,9 @@ body {
 }
 
 .search-box .btn {
-	padding: 12px 30px;
+	padding: 13px 30px;
 	border-radius: 0;
-	font-size: 19px;
+	font-size: 18px;
 }
 
 /******** Feature One ******/
@@ -246,7 +246,7 @@ body {
 .footer {
 	/*height: 150px;
 	margin-top: 200px;*/
-	background: #11538C;
+	background: #333333;
 }
 
 .footer a {
