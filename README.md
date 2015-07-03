@@ -1,2 +1,2 @@
 # shule-template
-Test Shule HTML Template
+Test Shule HTML Template - The template is free
